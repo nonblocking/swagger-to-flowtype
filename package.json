@@ -1,6 +1,6 @@
 {
   "name": "@nonblocking/swagger-to-flowtype",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Command line tool for generating flow types from swagger",
   "main": "./dist/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "camelize": "^1.0.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "commander": "^2.20.0",
     "js-yaml": "^3.13.1",
     "prettier": "^1.18.2"
