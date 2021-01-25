@@ -108,9 +108,9 @@ const propertyKeyForDefinition = (
     resolvedPropName = camelize(resolvedPropName);
   }
   if (program.checkRequired) {
-    return `'${resolvedPropName}'${isRequired(propName, definition) ? "" : "?"}`;
+    return `${resolvedPropName}${isRequired(propName, definition) ? "" : "?"}`;
   }
-  return `'${resolvedPropName}'`;
+  return resolvedPropName;
 };
 
 const propertiesList = (definition: Object) => {
